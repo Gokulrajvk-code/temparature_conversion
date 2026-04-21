@@ -26,6 +26,8 @@ res=vowelornot(value)
 print(value,res)
 
 
+
+
 def isprime(n):
     res=True
     for i in range(2,n):
@@ -33,8 +35,6 @@ def isprime(n):
             res=False
             break
     return res
-
-
 #anonymous function
 prime=lambda n:"{} is invalid input".format(n) if n<=1  else "{} is prime".format(n) if isprime(n) else "{} is not prime".format(n)
 #main program
